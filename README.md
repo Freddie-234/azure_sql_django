@@ -12,7 +12,7 @@ source .venv/bin/activate
 
 For Windows
 ```
-python3 -m venv .venv  
+python -m venv .venv  
 .venv\Scripts\activate
 ```
 
@@ -33,7 +33,7 @@ In Django, migrations are a way to propagate changes made to your models (databa
 
 When you run:
 ```
-python3 manage.py makemigrations
+python manage.py makemigrations
 ```
 
 Django will:
@@ -45,12 +45,12 @@ Django will:
 ## Apply migrations to the database
 
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 ## Start Server
 
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 ## Install Mac odbc driver
